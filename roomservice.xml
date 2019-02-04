@@ -2,6 +2,6 @@
 <manifest>
   <project name="mhkjahromi/android_device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="aosp-9.x" />
   <project name="mhkjahromi/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="aosp-9.x" />
-  <project name="mhkjahromi/platform_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="9.0" />
-  <project name="mhkjahromi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.0" />
+  <project name="JonasCardoso/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="eas-p" />
+  <project name="mhkjahromi/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.x" />
 </manifest>
