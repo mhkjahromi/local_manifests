@@ -3,4 +3,5 @@
   <project name="mhkjahromi/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="aosp-9.x" />
   <project name="SyberiaProject-Devices/platform_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="9.0" />
   <project name="SyberiaProject-Devices/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.0" />
+  <remove-project name="external/ant-wireless/ant_native" />
 </manifest>
