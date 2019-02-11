@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="mhkjahromi/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="aosp-9.x" />
+  <project name="mhkjahromi/device_xiaomi_gemini-old" path="device/xiaomi/gemini" remote="github" revision="aosp-9.x" />
   <project name="mhkjahromi/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="aosp-9.x" />
-  <project name="JonasCardoso/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="eas-p" />
+  <project name="PsyMan47/Pepsy-Kernel" path="kernel/xiaomi/msm8996" remote="github" revision="pepsy-pie-eas" />
   <project name="mhkjahromi/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.x" />
 </manifest>
