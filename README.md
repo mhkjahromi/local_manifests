@@ -1,4 +1,4 @@
 # local_manifests
 Mi5 room service
-1.Place the roomservice: cd ~/YOUR ROM NAME DIR && cd .repo && mkdir local_manifests && cd local_manifests && wget https://raw.githubusercontent.com/mhkjahromi/local_manifests/master/roomservice.xml && cd ../..
+1.Place the roomservice: cd ~/YOUR ROM NAME DIR && cd .repo && mkdir local_manifests && cd local_manifests && wget https://raw.githubusercontent.com/mhkjahromi/local_manifests/aosp-9.x/roomservice.xml && cd ../..
 2.Sync repo with roomservice: repo sync -f --force-sync --no-clone-bundle
