@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="mhkjahromi/platform_device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="aosp-9.x" />
-  <project name="SyberiaProject-Devices/platform_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="9.0" />
-  <project name="SyberiaProject-Devices/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.0" />
+<!-- Xiaomi Mi5 Device Tree -->
+  <project name="mhkjahromi/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="aosp-9.x" />
+<!-- Xiaomi MSM8996 Common Tree -->
+  <project name="mhkjahromi/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="aosp-9.x" />
+<!-- Darkness Kernel Prebuilt zImage -->
+  <project name="mhkjahromi/Darkness-zImage" path="kernel/DarknessPrebuilt" remote="github" revision="EAS-9.x" />
+<!-- Xiaomi Mi5 Vendor Tree -->
+  <project name="mhkjahromi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.x" />
+<!-- Xiaomi Mi5 MIUI Camera Port -->
+  <project name="mhkjahromi/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github" revision="9.x" />
+<!-- Darkness Kernel Manger -->
+  <project name="mhkjahromi/DarknessKernel-Manger" path="device/xiaomi/msm8996-common/DarknessKernel-Manger" remote="github" revision="9.x" />
 </manifest>
