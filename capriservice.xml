@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Xiaomi Mi5 Device Tree -->
+  <project name="henmadx/android_device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="lineage-16.0" />
+<!-- Xiaomi MSM8996 Common Tree -->
+  <project name="henmadx/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common-1" remote="github" revision="lineage-16.0" />
+<!-- Kerneeeeeeeeeeeeee -->
+  <project name="henmadx/platform_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996-1" remote="github" revision="9.0" />
+<!-- Xiaomi Mi5 Vendor Tree -->
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi-1" remote="github" revision="lineage-16.0" />
+
+
+<!-- Xiaomi Mi5 MIUI Camera Port 
+  <project name="mhkjahromi/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github" revision="9.x" /> -->
+<!-- Darkness Kernel Manger 
+  <project name="mhkjahromi/DarknessKernel-Manger" path="device/xiaomi/msm8996-common/DarknessKernel-Manger" remote="github" revision="9.x" /> -->
+</manifest>
