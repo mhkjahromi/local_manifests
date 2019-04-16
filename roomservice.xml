@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Xiaomi Mi5 Device Tree -->
-  <project name="mhkjahromi/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="aosp-9.x" />
-<!-- Xiaomi MSM8996 Common Tree -->
-  <project name="mhkjahromi/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="aosp-9.x" />
-<!-- Darkness Kernel Prebuilt zImage -->
-  <project name="mhkjahromi/Darkness-zImage" path="kernel/DarknessPrebuilt" remote="github" revision="EAS-9.x" />
-<!-- Xiaomi Mi5 Vendor Tree -->
-  <project name="mhkjahromi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="9.x" />
-<!-- Xiaomi Mi5 MIUI Camera Port -->
-  <project name="mhkjahromi/vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="github" revision="9.x" />
-<!-- Darkness Kernel Manger -->
-  <project name="mhkjahromi/DarknessKernel-Manger" path="device/xiaomi/msm8996-common/DarknessKernel-Manger" remote="github" revision="9.x" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-16.0-caf" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-16.0-caf" />
 </manifest>
