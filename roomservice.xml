@@ -7,7 +7,7 @@
 <!-- Xiaomi Mi5 Vendor Tree -->
   <project name="mhkjahromi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="aosp-9.x" />
 <!-- Xiaomi Mi5 Kernel Sources -->
-  <project name="mhkjahromi/kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="9.0" />
+  <project name="mhkjahromi/kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="9.0-EAS" />
 <!-- Xiaomi Mi5 MIUI Camera Port -->
   <project name="mhkjahromi/vendor_xiaomi_miuicamera" path="vendor/xiaomi/MiuiCamera" remote="github" revision="9.x" />
 </manifest>
