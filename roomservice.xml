@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Xiaomi Mi5 Device Tree -->
-  <project name="mhkjahromi/android_device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="crdroid-pie" />
+  <project name="mhkjahromi/device_xiaomi_gemini" path="device/xiaomi/gemini" remote="github" revision="crdroid-pie" />
 <!-- Xiaomi MSM8996 Common Tree -->
-  <project name="mhkjahromi/android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="crdroid-pie" />
+  <project name="mhkjahromi/device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="github" revision="crdroid-pie" />
 <!-- Xiaomi Mi5 Vendor Tree -->
   <project name="mhkjahromi/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="lineage-16.0" />
 <!-- Xiaomi Mi5 Kernel Sources -->
-  <project name="mhkjahromi/android_kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="lineage-16.0" />
+  <project name="mhkjahromi/kernel_xiaomi_msm8996" path="kernel/xiaomi/msm8996" remote="github" revision="HMP-upstream" />
 <!-- Xiaomi Mi5 MIUI Camera Port -->
   <project name="mhkjahromi/vendor_xiaomi_miuicamera" path="vendor/xiaomi/MiuiCamera" remote="github" revision="9.x" />
 </manifest>
